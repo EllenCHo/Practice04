@@ -6,9 +6,9 @@ public class MyBase extends Base{
 	public void service(String state) {
 
         if (state.equals("낮")) {
-            day();
+            super.day();
         } else if (state.equals("밤")){
-            night();
+            super.night();
         } else {
         	afternoon();
         }
